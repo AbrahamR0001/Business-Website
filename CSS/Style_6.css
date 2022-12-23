@@ -1,0 +1,643 @@
+*{ margin: 0px;
+   padding: 0px; }
+
+.container{ width: 100%;
+            border: 0px solid red; 
+            height: 950px; }
+
+.header{ height: 79%;
+         background-color: black;
+         color: white;
+         background-image: url(../Images/Coding_2.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-attachment: fixed; }
+
+         .logo{ width: 14%;
+                height: 15%;
+                border: 0px solid yellow;
+                float: left;
+                margin-top: 1%;
+                background-image: url(../Images/VSIT_Logo_1.png);
+                background-repeat: no-repeat; }
+
+         .menu{ width: 69%;
+                height: 15%;
+                border: 0px solid yellow;
+                font-size: 13px;
+                float: right;
+                margin-top: 0.5%; }
+
+         .menu ul{ list-style: none; }
+
+            .menu ul li{ width: 139px;
+                        height: 99px;
+                        background-color: none;
+                        margin-left: 10px;
+                        float: left;
+                        color: white;
+                        text-align: center;
+                        line-height: 95px; }
+
+            .menu ul li:hover{ background-color: skyblue; }
+
+            .menu ul li a{ color: white;
+                          text-decoration: none; }
+
+.content{ width: 80%;
+          height: 45%;
+          border: 0px solid yellow;
+          margin-left: 155px; }
+
+          .p{ font-size: 80px;
+              text-align: center;
+              color: skyblue; }
+
+          .p1{ font-size: 35px;
+               text-align: center;
+               color: white; }
+
+          .p2{ font-size: 30px;
+               text-align: center;
+               color: white; }
+
+.p3{ margin-top: 79px;
+     font-size: 30px;
+     text-align: center;
+     color: black; }
+
+.p4{ text-align: center; }
+
+       .choose{ width: 70%;
+                height: 4%;
+                border: 0px solid darkred;
+                font-size: 13px;
+                float: none;
+                margin-top: 2%;
+                margin-left: 15%; }
+
+         .choose ul{ list-style: none; }
+
+            .choose ul li{ width: 185.5px;
+                        height: 35px;
+                        background-color: white;
+                        margin-left: 15px;
+                        margin-top: 5PX;
+                        float: left;
+                        color: black;
+                        text-align: center;
+                        line-height: 30px; }
+
+            .choose ul li:hover{ background-color: skyblue; }
+
+            .choose ul li a{ color: black;
+                             text-decoration: none; }
+
+.slidder{ height: 115%;
+          border: 0px solid red;
+          margin-top: 5px; }
+
+          .box1{ width: 350px;
+                height: 250px;
+                border: 0px solid blue;
+                float: left;
+                margin-top: 10px;
+                margin-left: 20px;
+                background-image: url(../Images/full-stack-development-pic_1.png);
+                background-size: 100%; }
+
+          .box2{ width: 350px;
+                height: 250px;
+                border: 0px solid blue;
+                float: left;
+                margin-top: 10px;
+                margin-left: 20px;
+                background-image: url(../Images/web-designing-training-delhi-pic_1.png);
+                background-size: 100%; }
+
+          .box3{ width: 350px;
+                height: 250px;
+                border: 0px solid blue;
+                float: left;
+                margin-top: 10px;
+                margin-left: 20px;
+                background-image: url(../Images/core-java-training_1.png);
+                background-size: 100%; }
+
+          .box4{ width: 350px;
+                height: 250px;
+                border: 0px solid blue;
+                float: left;
+                margin-top: 10px;
+                margin-left: 20px;
+                background-image: url(../Images/j2ee-training-in-delhi_1.png);
+                background-size: 100%; }
+
+          .box5{ width: 350px;
+                height: 250px;
+                border: 0px solid blue;
+                float: left;
+                margin-top: 10px;
+                margin-left: 20px;
+                background-image: url(../Images/android-app-development-training_1.png);
+                background-size: 100%; }
+
+          .box6{ width: 350px;
+                height: 250px;
+                border: 0px solid blue;
+                float: left;
+                margin-top: 10px;
+                margin-left: 20px;
+                background-image: url(../Images/python-training-in-delhi_1.png);
+                background-size: 100%; }
+
+          .box7{ width: 350px;
+                height: 250px;
+                border: 0px solid blue;
+                float: left;
+                margin-top: 10px;
+                margin-left: 20px;
+                background-image: url(../Images/php-training-in-delhi_1.png);
+                background-size: 100%; }
+
+          .box8{ width: 350px;
+                height: 250px;
+                border: 0px solid blue;
+                float: left;
+                margin-top: 10px;
+                margin-left: 20px;
+                background-image: url(../Images/digital-marketing-in-delhi_1.png);
+                background-size: 100%; }
+
+          .box9{ width: 350px;
+                height: 250px;
+                border: 0px solid blue;
+                float: left;
+                margin-top: 10px;
+                margin-left: 20px;
+                background-image: url(../Images/bootstrap-training-delhi_1.png);
+                background-size: 100%; }
+
+          .box10{ width: 350px;
+                height: 250px;
+                border: 0px solid blue;
+                float: left;
+                margin-top: 10px;
+                margin-left: 20px;
+                background-image: url(../Images/web-development-training-delhi_1.png);
+                background-size: 100%; }
+
+          .box11{ width: 350px;
+                height: 250px;
+                border: 0px solid blue;
+                float: left;
+                margin-top: 10px;
+                margin-left: 20px;
+                background-image: url(../Images/advanced-excel-training-delhi_1.png);
+                background-size: 100%; }
+
+          .box12{ width: 350px;
+                height: 250px;
+                border: 0px solid blue;
+                float: left;
+                margin-top: 10px;
+                margin-left: 20px;
+                background-image: url(../Images/vba-macro-training-delhi_1.png);
+                background-size: 100%; }
+
+          .box13{ width: 350px;
+                height: 250px;
+                border: 0px solid blue;
+                float: left;
+                margin-top: 10px;
+                margin-left: 20px;
+                background-image: url(../Images/c-programming-training-in-delhi_1.png);
+                background-size: 100%; }
+
+.quality{ height: 55%;
+          border: 0px solid red;
+          margin-top: 5px;
+          background-color: black; }
+
+          .logo1{ width: 55%;
+                  height: 97%;
+                  border: 0px solid yellow;
+                  margin-top: 7px;
+                  background-image: url(../Images/best-java-training-delhi_1.png);
+                  background-repeat: no-repeat;
+                  background-size: 50%;
+                  background-position: right;
+                  float: left; }
+
+          .highlights{ width: 44%;
+                       height: 60%;
+                       border: 0px solid yellow;
+                       background-color: lightskyblue;
+                       margin-top: 98px;
+                       float: right; }
+
+                  .p5{ font-size: 30px;
+                       color: white;
+                       margin-top: 50px;
+                       margin-left: 80px; }
+
+                  .keys ul{ list-style: circle; }
+
+                  .keys ul li{ width: 85%;
+                               height: 65%;
+                               color: white;
+                               margin-top: 15px;
+                               margin-left: 130px; }
+
+.p6{ font-size: 40px;
+     color: black;
+     text-align: center;
+     margin-top: 70px; }
+
+.p7{ text-align: center; }
+
+.p8{ width: 90%;
+     height: 9%;
+     font-size: 20px;
+     color: black;
+     border: 0px solid black;
+     text-align: center;
+     margin-top: 28px;
+     margin-left: 76px;
+     margin-bottom: 10px; }
+
+.future{ height: 30%;
+         border: 1px solid black;
+         background-image: url(../Images/Work_Practice_3.jpg);
+         background-repeat: no-repeat;
+         background-size: 100%; }
+
+         .coming{ width: 89%;
+                  height: 60%;
+                  border: 1px solid blue;
+                  margin-top: 60px;
+                  margin-left: 80px;
+                  background-color: lightskyblue; }
+
+                  .box14{ width: 24%;
+                          height: 93%;
+                          border: 0px solid blue;
+                          float: left;
+                          margin: 5px;
+                          margin-right: 9.5px; }
+
+                  .box15{ width: 24%;
+                          height: 93%;
+                          border: 0px solid blue;
+                          float: left;
+                          margin: 5px; }
+
+                  .box16{ width: 24%;
+                          height: 93%;
+                          border: 0px solid blue;
+                          float: left;
+                          margin: 5px; }
+
+                  .box17{ width: 24%;
+                          height: 93%;
+                          border: 0px solid blue;
+                          float: left;
+                          margin: 5px; }
+
+                   .p9{ font-size: 40px;
+                        color: black;
+                        text-align: center;
+                        margin-top: 49px; }
+
+                   .p10{ font-size: 30px;
+                        color: black;
+                        text-align: center;
+                        margin-top: 20px; }
+
+                   .p11{ font-size: 30px;
+                        color: black;
+                        text-align: center;
+                        margin-top: 20px; }
+
+                   .p12{ font-size: 19px;
+                        color: black;
+                        text-align: center;
+                        margin-top: 20px; }
+
+.ratings{ width: 90%;
+          height: 60%;
+          border: 0px solid darkred;
+          margin-top: 55px;
+          margin-left: 80px; }
+
+          .reviews{ width: 63%;
+                    height: 95%;
+                    border: 0px solid blue;
+                    float: left;
+                    margin-top: 14px;
+                    margin-left: 5px; }
+
+                    .p13{ font-size: 20px;
+                          color: black;
+                          text-align: center;
+                          margin-top: 20px; }
+
+                    .p14{ font-size: 15px;
+                          color: black;
+                          text-align: center;
+                          margin-top: 20px; }
+
+                          .girlreview1{ width: 85%;
+                                        height: 40%;
+                                        border: 0px solid darkred;
+                                        margin-top: 10px;
+                                        margin-left: 60px; }
+
+                                        .girlpic{ width: 20%;
+                                                  height: 95%;
+                                                  border: 0px solid darkred;
+                                                  margin-top: 4.5px;
+                                                  margin-left: 10px;
+                                                  background-image: url(../Images/Logo_Girl_1.jpg);
+                                                  background-repeat: no-repeat;
+                                                  background-size: 50%;
+                                                  background-position: center;
+                                                  float: left; }
+
+                                                  .girlpoint{ width: 75%;
+                                                              height: 95%;
+                                                              margin-top: 4.5px;
+                                                              margin-left: 10px;
+                                                              margin-right: 10px;
+                                                              border: 0px solid black; 
+                                                              float: right;}
+
+                                                              .p15{ font-style: High Tower Text;
+                                                                    font-size: 19px;
+                                                                    color: black;
+                                                                    float: left;
+                                                                    margin-top: 68px;
+                                                                    margin-left: 10px; }
+
+                                                               .p16{ font-style: High Tower Text;
+                                                                    font-size: 19px;
+                                                                    color: black;
+                                                                    float: right;
+                                                                    margin-top: 10px;
+                                                                    margin-left: 10px;
+                                                                    margin-right: 5px; }
+
+                          .boyreview1{  width: 85%;
+                                        height: 40%;
+                                        border: 0px solid darkred;
+                                        margin-top: 10px;
+                                        margin-left: 60px; }
+
+                                        .boypic{ width: 20%;
+                                                  height: 95%;
+                                                  border: 0px solid darkred;
+                                                  margin-top: 4.5px;
+                                                  margin-left: 10px;
+                                                  background-image: url(../Images/Logo_Boy_1.jpg);
+                                                  background-repeat: no-repeat;
+                                                  background-size: 50%;
+                                                  background-position: center;
+                                                  float: left; }
+
+                                                  .boypoint{  width: 75%;
+                                                              height: 95%;
+                                                              margin-top: 4.5px;
+                                                              margin-left: 10px;
+                                                              margin-right: 10px;
+                                                              border: 0px solid black; 
+                                                              float: right; }
+
+                                                              .p15{ font-style: High Tower Text;
+                                                                    font-size: 19px;
+                                                                    color: black;
+                                                                    float: left;
+                                                                    margin-top: 68px;
+                                                                    margin-left: 10px; }
+
+                                                               .p16{ font-style: High Tower Text;
+                                                                    font-size: 19px;
+                                                                    color: black;
+                                                                    float: right;
+                                                                    margin-top: 10px;
+                                                                    margin-left: 10px;
+                                                                    margin-right: 5px; }
+
+          .promo{ width: 30%;
+                  height: 95%;
+                  border: 0px solid blue;
+                  float: left;
+                  margin-top: 14px;
+                  margin-left: 10px; } 
+
+.joinus{ height: 30%;
+         background-color: black;
+         margin-top: 70px; }
+
+         .text{ width: 70%;
+                height: 35%;
+                font-size: 40px;
+                color: skyblue;
+                text-align: center;
+                border: 0px solid yellow;
+                margin-left: 195px; }
+
+                .text1{ width: 20%;
+                        height: 10%;
+                        border: 0px solid yellow;
+                        margin-top: 5px;
+                        margin-left: 575px;
+                        font-size: 15px;
+                        color: white;
+                        text-align: center; }
+
+.p17{ margin-top: 79px;
+     font-size: 30px;
+     text-align: center;
+     color: black; }
+
+.p18{ text-align: center; }
+
+.enquiry{ width: 85%;
+          height: 80%;
+          border: 0px solid darkred;
+          margin-top: 25px;
+          margin-left: 100px; }
+
+          .form{ width: 60%;
+                 height: 98%;
+                 border: 0px solid blue;
+                 float: left;
+                 margin-top: 3.5px;
+                 margin-left: 3.5px; }
+
+                  .input{ width: 95%;
+                          height: 50px;
+                          margin-top: 30px;
+                          margin-left: 20px; }
+
+                          .textarea{ width: 95%;
+                                    height: 179px;
+                                    margin-top: 30px;
+                                    margin-left: 20px; }
+
+                                    .p19{ margin-top: 0px;
+                                          margin-left: 10px; }
+
+                                    .p20{ margin-left: 150px;
+                                          color: gray; }
+
+                                    .p21{ margin-left: 150px;
+                                          color: black; }
+
+                                    .p22{ margin-left: 150px;
+                                          color: black; }
+
+                                          .img3{ width: 100px;
+                                                 height: 50px;
+                                                 background-color: skyblue;
+                                                 color: white;
+                                                 margin-left: 350px; }
+
+          .address{ width: 39%;
+                    height: 98%;
+                    border: 0px solid blue;
+                    float: right;
+                    margin-top: 3.5px;
+                    margin-right: 3.5px; }
+
+                    .P23{ margin-top: 40px;
+                          font-size: 30px;
+                          text-align: left;
+                          color: black;
+                          margin-left: 20px; }
+
+                    .p24{ margin-top: 39px;
+                          font-size: 15px;
+                          text-align: left;
+                          color: grey;
+                          margin-left: 20px; }
+
+                    .p25{ margin-top: 24px;
+                          font-size: 15px;
+                          text-align: left;
+                          color: grey;
+                          margin-left: 20px; }
+
+.footer{ height: 60%;
+         background-color: black;
+         margin-top: 10px; }
+
+         .courses1{ width: 24%;
+                   height: 70%;
+                   border: 0px solid yellow;
+                   margin-left: 152px;
+                   float: left; }
+
+                   .courses1 ul{ list-style: circle;
+                                 list-style-position: inside; }
+
+                   .courses1 ul li{ width: 159px;
+                                height: 42px;
+                                background-color: none;
+                                margin-top: 2px;
+                                margin-left: 1px;
+                                /*float: left*/;
+                                color: grey;
+                                text-align: left;
+                                line-height: 15px; }
+
+                   .courses1 ul li:hover{ background-color: dimgrey; }
+
+                   .courses1 ul li a{ color: skyblue;
+                                  text-decoration: none;
+                                  text-decoration-color: dimgrey; }
+
+         .courses2{ width: 24%;
+                   height: 70%;
+                   border: 0px solid yellow;
+                   margin-left: 55px;
+                   float: left; }
+
+                    .courses2 ul{ list-style: circle;
+                                 list-style-position: inside; }
+
+                    .courses2 ul li{ width: 159px;
+                                height: 42px;
+                                background-color: none;
+                                margin-top: 2px;
+                                margin-left: 1px;
+                                /*float: left*/;
+                                color: grey;
+                                text-align: left;
+                                line-height: 15px; }
+
+                    .courses2 ul li:hover{ background-color: dimgrey; }
+
+                    .courses2 ul li a{ color: skyblue;
+                                       text-decoration: none;
+                                       text-decoration-color: dimgrey; }
+
+         .socialsites{ width: 28%;
+                       height: 80%;
+                       border: 0px solid yellow;
+                       margin-left: 55px;
+                       float: left; }
+
+                        .img4{ width: 220px;
+                               height: 50px;
+                               margin-top: 30px;
+                               margin-left: 107px; }
+
+                               .p26{ margin-top: 45px;
+                                    font-size: 20px;
+                                    text-align: center;
+                                    color: white;
+                                    margin-left: 20px; }
+
+                               .p27{ text-align: center;
+                                     color: white;
+                                     margin-top: 5px;
+                                     margin-left: 2px; }
+
+                               .img5{ width: 30px;
+                                      height: 30px;
+                                      margin-top: 15px;
+                                      margin-left: 130px; }
+
+                               .img6{ width: 30px;
+                                      height: 30px;
+                                      margin-top: 15px;
+                                      margin-left: 15px; }
+
+                               .img7{ width: 30px;
+                                      height: 30px;
+                                      margin-top: 15px;
+                                      margin-left: 15px; }
+
+                               .img8{ width: 30px;
+                                      height: 30px;
+                                      margin-top: 15px;
+                                      margin-left: 15px; }
+
+                               .p28{ margin-top: 95px;
+                                    font-size: 20px;
+                                    text-align: center;
+                                    color: white;
+                                    margin-left: 20px; }
+
+                               .p29{ margin-top: 19px;
+                                    font-size: 20px;
+                                    text-align: left;
+                                    color: white;
+                                    margin-left: 225px; }
+
+                               .p30{ margin-top: 0px;
+                                    font-size: 20px;
+                                    text-align: left;
+                                    color: white;
+                                    margin-left: 600px; }
